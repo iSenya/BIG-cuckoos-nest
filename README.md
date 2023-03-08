@@ -1,4 +1,4 @@
-This fork is the created in order to provide the changes done for the experiment on the cut from the movie One flew over the cuckoo's nest from [here](https://drive.google.com/file/d/1z6W9TOnjFAdkNhM52cYXATypJMK5T_0h/view?usp=sharing).
+This fork is created in order to provide the changes done for the experiment on the cut from the movie One flew over the cuckoo's nest from [here](https://drive.google.com/file/d/1z6W9TOnjFAdkNhM52cYXATypJMK5T_0h/view?usp=sharing).
 
 Run the BIG model on the [tracklet file](https://github.com/iSenya/BIG-cuckoos-nest/blob/main/tracking_results/nest/test.npy) using the infer_nest.py script from the [BIG repository](https://github.com/iSenya/BIG-cuckoos-nest/blob/main/tools/infer_nest.py), indicating the path to your config and checkpoint files, as well as the CUDA device you want to use. 
 Example:
