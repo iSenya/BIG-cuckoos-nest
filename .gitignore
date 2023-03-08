@@ -7,7 +7,6 @@ _ext
 # pytorch/python/numpy formats
 *.pth
 *.pkl
-*.json
 
 # log files & tensorboard logs
 *.log
