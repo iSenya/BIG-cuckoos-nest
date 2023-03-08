@@ -1,3 +1,11 @@
+This fork is the created in order to provide the changes done for the experiment on the cut from the movie One flew over the cuckoo's nest from [here](https://drive.google.com/file/d/1z6W9TOnjFAdkNhM52cYXATypJMK5T_0h/view?usp=sharing).
+
+Run the BIG model on the [tracklet file](https://github.com/iSenya/BIG-cuckoos-nest/blob/main/tracking_results/nest/test.npy) using the infer_nest.py script from the [BIG repository](https://github.com/iSenya/BIG-cuckoos-nest/blob/main/tools/infer_nest.py), indicating the path to your config and checkpoint files, as well as the CUDA device you want to use. 
+Example:
+> python tools/infer_nest.py --cfg_path experiments/nest/config_.py --ckpt_path experiments/nest/model_epoch_80.pth --cuda 0
+
+
+
 # Classification-Then-Grounding: Reformulating Video Scene Graphs as Temporal Bipartite Graphs
 
 Pytorch implementation of our paper [**Classification-Then-Grounding: Reformulating Video Scene Graphs as Temporal Bipartite Graphs**](https://openaccess.thecvf.com/content/CVPR2022/html/Gao_Classification-Then-Grounding_Reformulating_Video_Scene_Graphs_As_Temporal_Bipartite_Graphs_CVPR_2022_paper.html), which is accepted by CVPR2022. [(arXiv)](https://arxiv.org/abs/2112.04222)
